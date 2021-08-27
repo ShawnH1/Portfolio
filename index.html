@@ -1,15 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="./assets/style.css">
-<style></style>
-<script src=""></script>
+<html lang="en-us">
 
+
+
+<!--Title Section-->
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Shawn's Portfolio</title>
+
+    <!--Link to Style Sheet-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!--Favicon will be added here-->
+    <link rel="shortcut icon" type="image/jpg" href="###addafaviconimghere###">
+</head>
+
+<!--Navigation Section-->
 <body>
+    <nav class="header">
+        <h1><span class="Lord">Lord</span> Shawn Hawkey</h1>
+        <div>
+        <!--Links to different sections-->
+            <ul>
+                <li>
+                    <a href="#About-Me">About Me</a>
+                </li>
+                <li>
+                    <a href=#My-Previous-Work>Section Two</a>
+                </li>
+                <li>
+                    <a href="#Contact-Info">Contact Info</a>
+                </li>
+                <li>
+                    <a href="Resume">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<img src="img_la.jpg" alt="A photo of me" style="width:100%">
+    <!--A picture of me!-->
+    <img src="img_la.jpg" alt="A photo of me" style="width:100%">
+
+    <!--Hero Section, About Me, My Previous Work-->
+    <div class="hero"></div>
+        <div class="content"></div>
+            <section id="About-Me" class="About-Me">
+                <h2>About Me</h2>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In omnis obcaecati autem quibusdam, soluta dolore ullam nam quo consequatur! Error nihil animi debitis vel reiciendis dolor ut omnis iusto totam.
+                </article>
+            </section>
+            
+            <section id="My-Previous-Work" class="My-Previous-Work">
+                <h2>My Previous Work</h2>
+                <article>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum optio quod impedit facere dolores, fugit cumque cupiditate animi doloremque, magnam exercitationem aspernatur velit. Ad saepe, placeat autem nulla inventore harum!
+                </article>
+            </section>
+
+            <section id="Contact-Info" class="Contact-Info">
+                <article>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium, quis vero fugiat quasi deleniti maiores esse facilis. Explicabo enim saepe ex id ipsam maxime maiores sed vero impedit numquam.
+                </article>
+            </section>
+        </div>
+
+
 
 <div class="">
  <h1>Shawn Hawkey</h1>
@@ -19,3 +76,19 @@
 
 </body>
 </html>
+
+<!--GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport-->
+<!--What is this?  It was in a HTML skeleton under the title
+<meta name="viewport" content="width=device-width,initial-scale=1">-->

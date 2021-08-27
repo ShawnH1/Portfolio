@@ -1,0 +1,14 @@
+* {
+    box-sizing
+}
+
+li button:hover {
+    color:blue;
+    background-color: red;
+}
+
+li button:click {
+    color:lightblue;
+    background-color: lightcoral;
+    ;
+}
