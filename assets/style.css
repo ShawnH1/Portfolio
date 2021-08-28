@@ -5,8 +5,8 @@
 }
 
 :root {
-    --dark-blue:;
-    --red:;
+    --dark-blue:#5c6afa;
+    --red:#7d1e1e;
 }
 
 body {
@@ -15,11 +15,15 @@ body {
 
 .header {
     padding: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+
 }
 
 .header h1 {
     display: inline-block;
+    margin: 0 auto;
     font-size: 50px;
     color: var(--red);
 }
@@ -33,5 +37,32 @@ body {
 }
 
 .header div ul {
-    list-style-type: lower-roman;
+    list-style-type:upper-roman;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* This is for the Hero Section.  About Me, Portfolio, Contact */
+.hero {
+    height: 800px;
+    width:100%;
+    margin-bottom: 25px;
+    background-image url ("./assets/images/")
+    background-size: cover;
+    background-position: center;
+}
+
+/*This moves the text to the right so the pic is on the left.
+.float-left {
+    float: left;                       
+    margin-right: 25px;
 }
