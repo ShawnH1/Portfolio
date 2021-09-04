@@ -5,11 +5,15 @@
 }
 
 :root {
-    --dark-blue:#5c6afa;
-    --red:#7d1e1e;
+    --gold:#dce309;
+    --black:#080808;
+    --dark-gray:#515155;
+    --light-gray: #7F8086; 
+    --text:#FFFFFF;
 }
-/* This is currently a global rule for all images, will need to resize individual images later*/
-/* Will do that once final images are selected*/
+
+/*global img guide */
+
 img{
     max-width: 20%;
     max-height: 20%;
@@ -17,11 +21,12 @@ img{
 
 
 body {
-    background-color: var(--dark-blue);
+    background-color: var(--light-gray);
 }
 
 .header {
-    background-color: #575959;
+    color: var(--text);
+    background-color:var(--light-gray);
     padding: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: sticky;
@@ -39,6 +44,7 @@ body {
 }
 
 .header div {
+    color: var(--text);
     padding-top: 15px;
     margin-right: 20px;
     float:right;
@@ -46,12 +52,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header ul{
     list-style-type:upper-roman;
     display: inline-block;
     margin-left: 25px;
     padding: 0, 0, 0, 50px;
 }
+
 
 a {
     color: black;
@@ -62,7 +69,7 @@ p {
     font-size: 16px;
 }
 
-/* This is for the Hero Section.  About Me, Portfolio, Contact */
+/* This is for the Hero Section. */
 .hero {
     border-style: double;
     height: 50px;
@@ -77,6 +84,10 @@ p {
     align-items:center
 }
 
+.about-me h2 {
+    font-size: 100%;
+    align-self:center;
+}
 .about-me img {
     max-width: 50%;
     height: auto;
@@ -85,34 +96,24 @@ p {
 
 .my-previous-work {
     border-style: dashed;
-    height: 50px;
+    height: 50%;
 }
 
-.My-Previous-Work h2 {
+.my-previous-work h2 {
     color: var(--red)
 }
 
-.My-Previous-Work article {
+.my-previous-work article {
     background-size: cover;
     background-position: center;
 }
 
-
-
-.run-buddy {
-    border: solid;
-}
-
-
-.run-buddy-textbox
-
-
 .Contact-Section {
-    padding: 50px
+    padding: 50%
 }
  
 
-ul:nth-child(1) 
+/*ul:nth-child(1) */
 
 
 /*This moves the text to the right so the pic is on the left.
