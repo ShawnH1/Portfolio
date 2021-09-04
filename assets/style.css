@@ -8,13 +8,21 @@
     --dark-blue:#5c6afa;
     --red:#7d1e1e;
 }
+/* This is currently a global rule for all images, will need to resize individual images later*/
+/* Will do that once final images are selected*/
+img{
+    max-width: 20%;
+    max-height: 20%;
+}
+
 
 body {
     background-color: var(--dark-blue);
 }
 
 .header {
-    padding: 20px;
+    background-color: #575959;
+    padding: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: sticky;
     top: 0;
@@ -22,6 +30,7 @@ body {
 }
 
 .header h1 {
+    
     display: inline-block;
     margin: 0 auto;
     font-size: 50px;
@@ -55,31 +64,55 @@ p {
 
 /* This is for the Hero Section.  About Me, Portfolio, Contact */
 .hero {
+    border-style: double;
     height: 50px;
     width:100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+
 }
 
-.My-Previous-Work {
-    height:
+.about-me {
+    align-items:center
+}
+
+.about-me img {
+    max-width: 50%;
+    height: auto;
+    align-self:center;
+}
+
+.my-previous-work {
+    border-style: dashed;
+    height: 50px;
 }
 
 .My-Previous-Work h2 {
     color: var(--red)
 }
 
-.run-buddy {
-    background-image: ".\assets\Images\digital-marketing-meeting.jpg" alt="");;
+.My-Previous-Work article {
+    background-size: cover;
+    background-position: center;
 }
+
+
+
+.run-buddy {
+    border: solid;
+}
+
+
 .run-buddy-textbox
 
 
 .Contact-Section {
     padding: 50px
 }
- ul:nth-child(1) 
+ 
+
+ul:nth-child(1) 
 
 
 /*This moves the text to the right so the pic is on the left.
