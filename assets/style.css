@@ -106,9 +106,9 @@ p {
 }
 */
 
-.my-previous-work h2 {
+.my-previous-work h2{
     color: var(--red);
-    margin: auto;
+    margin: auto 0;
 }
 
 .my-previous-work article {
@@ -127,12 +127,13 @@ p {
 }
 
 /*add a button hover feature
-need to move the title into boxes over the images.  Having issues figuring out how to do that properly.
+need to move the title into boxes over the images.  Having issues figuring out how to do that properly. 
 .my-previous-work img {
     width: 150px;
     height: 150px;
-    position: relative;
+    
     margin: 30px;
+
 }
 
 .my-previous-work ul li {
@@ -155,7 +156,7 @@ need to move the title into boxes over the images.  Having issues figuring out h
 .top-project {
     width: 50%;
     height: 50%;
-}
+}*/
 
 
 .contact-info {
